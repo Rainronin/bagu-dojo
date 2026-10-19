@@ -1,0 +1,30 @@
+# 依赖与构建产物
+node_modules/
+dist/
+coverage/
+.vite/
+*.tsbuildinfo
+
+# 本地环境与日志
+.env
+.env.*
+!.env.example
+*.local
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# 系统与编辑器
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# 开发资料，不进入公开站点仓库
+AGENTS.md
+docs/
+content/
+scripts/
+tests/
+eslint.config.mjs
+vitest.config.ts

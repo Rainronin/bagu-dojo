@@ -1,0 +1,112 @@
+{
+  "version": "f1742e1f9e",
+  "generatedAt": "2026-10-18T16:58:00.447Z",
+  "sourceUnits": 1062,
+  "generatedQuestions": 1043,
+  "skipped": [
+    {
+      "sourceId": "src_javascript_f8cf6b46",
+      "reason": "与样题 src_javascript_b1653c6b 的 var/let/const 主题重复；保留已确认的样题版本。"
+    },
+    {
+      "sourceId": "src_react_3e6266cc",
+      "reason": "原文答案在受控组件示例处截断，未给出非受控组件的定义与选型场景，无法覆盖题干的两个问题。"
+    },
+    {
+      "sourceId": "src_performance_0985f234",
+      "reason": "与 src_performance_364da6d7（关键渲染路径优化）主题重复；保留答案更完整的版本。"
+    },
+    {
+      "sourceId": "src_cs-network_610036dd",
+      "reason": "与 src_cs-network_9b356431（小林coding · P54，TCP/UDP 区别）重复；保留 PDF 版本。"
+    },
+    {
+      "sourceId": "src_cs-network_1ae3b9d4",
+      "reason": "与 src_cs-network_f11dd988（小林coding · 计算机网络 P1-4）主题重复；保留答案更完整的 PDF 版本。"
+    },
+    {
+      "sourceId": "src_cs-network_da50df0c",
+      "reason": "与 src_cs-network_58a39126（小林coding · P6-7，GET/POST 使用场景）重复；保留 PDF 版本。"
+    },
+    {
+      "sourceId": "src_cs-network_e6e32710",
+      "reason": "与 src_cs-network_3b8a44b0（小林coding · P20，Cookie/Session）重复；保留答案更完整的 PDF 版本。"
+    },
+    {
+      "sourceId": "src_cs-network_0721fc71",
+      "reason": "原文答案只有“默认端口号是 53”这一句，信息过短且无可展开的概念，无法在不发明结论的前提下写出 20–60 字正确项与同领域干扰项。"
+    },
+    {
+      "sourceId": "src_cs-network_a2ac10d8",
+      "reason": "与 src_cs-network_b3e47ba8（小林coding · P20，HTTP 无状态与 Cookie）主题重复；保留后者。"
+    },
+    {
+      "sourceId": "src_cs-network_673e2ee6",
+      "reason": "原文答案只有“应用层，nginx 是七层负载均衡”一句，可提炼信息不足 20 字，扩写会引入原文外结论，因此跳过。"
+    },
+    {
+      "sourceId": "src_cs-network_dc7af520",
+      "reason": "与样题 src_cs-network_11ebe35c（TCP 三次握手）重复；保留样题版本。"
+    },
+    {
+      "sourceId": "src_cs-os_8811ca11",
+      "reason": "与 src_cs-os_800d0da9（小林coding 操作系统 P36）题干相同；保留后者更完整的答案。"
+    },
+    {
+      "sourceId": "src_cs-os_62d6a8b4",
+      "reason": "与样题 src_cs-os_a1b49e3b（操作系统 · 第 13 题）主题重复；保留已在样题中的版本。"
+    },
+    {
+      "sourceId": "src_java-collections_3e8c94cc",
+      "reason": "与 src_java-collections_fc083e25（HashMap/Hashtable/ConcurrentHashMap 对比）主题重复；保留更完整的版本。"
+    },
+    {
+      "sourceId": "src_java-concurrency_51431ea1",
+      "reason": "与 src_java-concurrency_a7186217（安全停止线程）主题重复；保留答案更完整的版本。"
+    },
+    {
+      "sourceId": "src_mysql_40ade5e1",
+      "reason": "与 src_mysql_778ebbd9（事务隔离级别）主题重复；保留答案更完整的 PDF 版本。"
+    },
+    {
+      "sourceId": "src_mysql_e05817cf",
+      "reason": "纯 SQL 查询实现题，答案是一段 RANK() 窗口函数代码，没有可独立判断的概念选项，按规则跳过。"
+    },
+    {
+      "sourceId": "src_mysql_fdbdc827",
+      "reason": "纯 SQL 多表 JOIN 实现题，答案由建表语句和查询代码组成，无可提炼的概念选项，按规则跳过。"
+    },
+    {
+      "sourceId": "src_mysql_727923ab",
+      "reason": "原文答案只有一句「强制走主库」，不足以提炼出三个明确错误的干扰项，按答案过短规则跳过。"
+    }
+  ],
+  "missing": [],
+  "byCategory": {
+    "javascript": 59,
+    "typescript": 50,
+    "html": 50,
+    "css": 45,
+    "vue": 35,
+    "react": 37,
+    "browser": 18,
+    "engineering": 31,
+    "performance": 29,
+    "security": 20,
+    "nodejs": 30,
+    "miniprogram": 10,
+    "design-patterns": 11,
+    "cs-network": 84,
+    "cs-os": 61,
+    "cs-dsa": 34,
+    "java-basic": 72,
+    "java-collections": 42,
+    "java-concurrency": 61,
+    "jvm": 33,
+    "spring": 59,
+    "mq": 32,
+    "mysql": 94,
+    "redis": 46
+  },
+  "errors": []
+}

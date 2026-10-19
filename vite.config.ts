@@ -1,0 +1,24 @@
+import { fileURLToPath, URL } from 'node:url'
+
+import tailwindcss from '@tailwindcss/vite'
+import vue from '@vitejs/plugin-vue'
+import { defineConfig } from 'vite'
+
+export default defineConfig({
+  plugins: [vue(), tailwindcss()],
+  resolve: {
+    alias: {
+      '@': fileURLToPath(new URL('./src', import.meta.url)),
+    },
+  },
+  build: {
+    target: 'es2022',
+  },
+  server: {
+    watch: {
+      // Content batches are written by background agents; watching them causes
+      // EBUSY on Windows temp files and is not needed for HMR.
+      ignored: ['**/content/**', '**/docs/**', '**/dist/**', '**/.git/**'],
+    },
+  },
+})

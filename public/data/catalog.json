@@ -1,0 +1,273 @@
+{
+  "version": "f1742e1f9e",
+  "generatedAt": "2026-10-18T16:58:00.447Z",
+  "totals": {
+    "questions": 1043,
+    "handwritten": 50,
+    "categories": 24
+  },
+  "domains": [
+    {
+      "id": "frontend",
+      "name": "前端题库",
+      "tagline": "JavaScript、TypeScript、Vue、React、HTML/CSS、浏览器、工程化与性能。",
+      "questionCount": 604,
+      "groups": [
+        {
+          "key": "language",
+          "name": "语言基础",
+          "categories": [
+            {
+              "slug": "javascript",
+              "name": "JavaScript",
+              "domain": "frontend",
+              "group": "language",
+              "questionCount": 59,
+              "handwrittenCount": 50
+            },
+            {
+              "slug": "typescript",
+              "name": "TypeScript",
+              "domain": "frontend",
+              "group": "language",
+              "questionCount": 50
+            },
+            {
+              "slug": "html",
+              "name": "HTML",
+              "domain": "frontend",
+              "group": "language",
+              "questionCount": 50
+            },
+            {
+              "slug": "css",
+              "name": "CSS",
+              "domain": "frontend",
+              "group": "language",
+              "questionCount": 45
+            }
+          ]
+        },
+        {
+          "key": "frameworks",
+          "name": "框架",
+          "categories": [
+            {
+              "slug": "vue",
+              "name": "Vue",
+              "domain": "frontend",
+              "group": "frameworks",
+              "questionCount": 35
+            },
+            {
+              "slug": "react",
+              "name": "React",
+              "domain": "frontend",
+              "group": "frameworks",
+              "questionCount": 37
+            }
+          ]
+        },
+        {
+          "key": "browser-engineering",
+          "name": "浏览器与工程化",
+          "categories": [
+            {
+              "slug": "browser",
+              "name": "浏览器原理",
+              "domain": "frontend",
+              "group": "browser-engineering",
+              "questionCount": 18
+            },
+            {
+              "slug": "engineering",
+              "name": "前端工程化",
+              "domain": "frontend",
+              "group": "browser-engineering",
+              "questionCount": 31
+            },
+            {
+              "slug": "performance",
+              "name": "性能优化",
+              "domain": "frontend",
+              "group": "browser-engineering",
+              "questionCount": 29
+            }
+          ]
+        },
+        {
+          "key": "extension",
+          "name": "拓展",
+          "categories": [
+            {
+              "slug": "security",
+              "name": "前端安全",
+              "domain": "frontend",
+              "group": "extension",
+              "questionCount": 20
+            },
+            {
+              "slug": "nodejs",
+              "name": "Node.js",
+              "domain": "frontend",
+              "group": "extension",
+              "questionCount": 30
+            },
+            {
+              "slug": "miniprogram",
+              "name": "小程序",
+              "domain": "frontend",
+              "group": "extension",
+              "questionCount": 10
+            },
+            {
+              "slug": "design-patterns",
+              "name": "设计模式",
+              "domain": "frontend",
+              "group": "extension",
+              "questionCount": 11
+            }
+          ]
+        },
+        {
+          "key": "shared",
+          "name": "计算机基础（共享）",
+          "shared": true,
+          "categories": [
+            {
+              "slug": "cs-network",
+              "name": "计算机网络",
+              "domain": "shared",
+              "group": "shared",
+              "questionCount": 84
+            },
+            {
+              "slug": "cs-os",
+              "name": "操作系统",
+              "domain": "shared",
+              "group": "shared",
+              "questionCount": 61
+            },
+            {
+              "slug": "cs-dsa",
+              "name": "数据结构与算法",
+              "domain": "shared",
+              "group": "shared",
+              "questionCount": 34
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "backend",
+      "name": "后端题库",
+      "tagline": "Java 基础、集合、并发、JVM、Spring、MySQL、Redis 与消息队列。",
+      "questionCount": 618,
+      "groups": [
+        {
+          "key": "java",
+          "name": "Java",
+          "categories": [
+            {
+              "slug": "java-basic",
+              "name": "Java 基础",
+              "domain": "backend",
+              "group": "java",
+              "questionCount": 72
+            },
+            {
+              "slug": "java-collections",
+              "name": "Java 集合",
+              "domain": "backend",
+              "group": "java",
+              "questionCount": 42
+            },
+            {
+              "slug": "java-concurrency",
+              "name": "Java 并发",
+              "domain": "backend",
+              "group": "java",
+              "questionCount": 61
+            },
+            {
+              "slug": "jvm",
+              "name": "JVM",
+              "domain": "backend",
+              "group": "java",
+              "questionCount": 33
+            }
+          ]
+        },
+        {
+          "key": "frameworks-middleware",
+          "name": "框架与中间件",
+          "categories": [
+            {
+              "slug": "spring",
+              "name": "Spring",
+              "domain": "backend",
+              "group": "frameworks-middleware",
+              "questionCount": 59
+            },
+            {
+              "slug": "mq",
+              "name": "消息队列",
+              "domain": "backend",
+              "group": "frameworks-middleware",
+              "questionCount": 32
+            }
+          ]
+        },
+        {
+          "key": "database",
+          "name": "数据库",
+          "categories": [
+            {
+              "slug": "mysql",
+              "name": "MySQL",
+              "domain": "backend",
+              "group": "database",
+              "questionCount": 94
+            },
+            {
+              "slug": "redis",
+              "name": "Redis",
+              "domain": "backend",
+              "group": "database",
+              "questionCount": 46
+            }
+          ]
+        },
+        {
+          "key": "shared",
+          "name": "计算机基础（共享）",
+          "shared": true,
+          "categories": [
+            {
+              "slug": "cs-network",
+              "name": "计算机网络",
+              "domain": "shared",
+              "group": "shared",
+              "questionCount": 84
+            },
+            {
+              "slug": "cs-os",
+              "name": "操作系统",
+              "domain": "shared",
+              "group": "shared",
+              "questionCount": 61
+            },
+            {
+              "slug": "cs-dsa",
+              "name": "数据结构与算法",
+              "domain": "shared",
+              "group": "shared",
+              "questionCount": 34
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
